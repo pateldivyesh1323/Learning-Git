@@ -1,0 +1,79 @@
+First time when you use git you have to set Username and email.
+"git config --global user.name Patel Divyesh"
+"git config --global user.email pateldivyesh1323@gmail.com"
+
+To Check name and email
+"git config --global user.name"
+"git config --global user.email"
+
+To unset name and email
+"git config --global --unset user.name Divyesh"
+"git config --global --unset user.email pateldivyesh1323@gmail.com"
+
+To Initialize Git Repo
+"git init"
+
+Show hidden Files
+"ls -lart"
+
+Show status of Git
+"git status"
+
+Throw single to Staging Area
+"git add filename"
+To add All files to staging Area
+"git add -A"
+
+When you take a file first time to the staging area you have to commit it which is known as initial commit.
+"git commit"
+-It will open a VIM editor
+-Enter commit message on first line
+or
+"git commit -m "message""
+
+To directly commit without bringing files to the staging area
+"git commit -a -m "message""
+
+To clear Terminal
+"clear"
+
+To Bring back the last commited code to the file
+"git checkout filename"
+for all files
+"git checkout -f"
+
+To check commit history
+"git log"
+To check last n commits
+"git log -p -n"
+
+To remove file from working directory and staging area. Caution- This will delete the file.
+"git rm filename"
+To remove file only from staging area.
+"git rm --cached filename"
+
+To check status of changed files
+"git status -s"
+
+To ignore files in any folder add name of file in .gitignore
+To create a .gitignore you have to create it with the help of terminal
+Command to create .gitignore in gitbash- "touch .gitignore"
+To know more go to .gitignore file
+
+Branch : 
+> Master is the main Branch.
+> We make different branches to work on our own version to avoid disbalance in the main working branch
+
+To get list of all branches
+"git branch"
+To make a new branch
+"git branch branchname"
+To switch branch 
+"git checkout branchname"
+To make a new Branch and Directly switch to that Branch
+"git checkout -b branchname"
+
+Each branch will work differently when you will make changes in one branch it will make a copy in that same branch and when you will move to different branch the files will be changed according to that branch.
+
+To merge Branch
+"git merge branchname"
