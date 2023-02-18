@@ -1,0 +1,14 @@
+# This will ignore files.
+# This will ignore files even if they are present in any Folders.
+mylogs.log
+
+# This will ignore file in a particular folder
+/mylogs.log 
+
+# This will ignore all files with particular extension
+*.log
+
+# This will ignore a particular folder
+ignore/
+
+Git Commands.txt
