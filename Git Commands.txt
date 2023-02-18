@@ -77,3 +77,16 @@ Each branch will work differently when you will make changes in one branch it wi
 
 To merge Branch
 "git merge branchname"
+
+Git Remote means to connect local repository to any repository on online platforms
+To add remote repo
+"git remote add origin https://github.com/pateldivyesh1323/Learning-Git.git" where this remote repo will be called as name of "origin"
+
+To check remote repo
+"git remote"
+To check url from where to fetch and where to push
+"git remote -v"
+To Push Code on remote repo
+"git push origin master" where origin is name of remote repo and master is name of branch
+To change url 
+"git remote set-url origin <url>"
